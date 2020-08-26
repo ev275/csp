@@ -26,10 +26,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li id="navNW" class="nav-item"><a class="nav-link js-scroll-trigger" href="#new">New Workout</a></li>
-                        <li id="navW" class="nav-item"><a class="nav-link js-scroll-trigger" href="#workouts">Workouts</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#info">Info</a></li>
-                        <li id="navLO" class="nav-item"><a class="nav-link js-scroll-trigger" id="logOutBtn" type="button">Log-Out</a></li>
+                        <!-- <li id="navNW" class="nav-item"><a class="nav-link js-scroll-trigger" href="#new">New Workout</a></li> -->
+                        <li id="navW" class="nav-item"><a class="nav-link js-scroll-trigger" href="#workouts">Sessions</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#info">Contact Us</a></li>
+                        <!-- <li id="navLO" class="nav-item"><a class="nav-link js-scroll-trigger" id="logOutBtn" type="button">Log-Out</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -40,14 +40,14 @@
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Casanova Sports Performance</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">separation through preparation</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#workouts" id="workoutsA">Workouts</a><br><br>
-                    <button href ="" data-toggle="modal" data-target="#modalLoginForm" class="btn btn-primary text-center" id="logInBtn1">Log-In</button><br><br>
-                    <button href ="" data-toggle="modal" data-target="#modalSignupForm" class="btn btn-primary text-center" id="signUpBtn1">Sign-Up</button><br><br>
+                    <a class="btn btn-primary js-scroll-trigger" href="#workouts" id="workoutsA">Join</a><br><br>
+                    <!-- <button href ="" data-toggle="modal" data-target="#modalLoginForm" class="btn btn-primary text-center" id="logInBtn1">Log-In</button><br><br>
+                    <button href ="" data-toggle="modal" data-target="#modalSignupForm" class="btn btn-primary text-center" id="signUpBtn1">Sign-Up</button><br><br> -->
                 </div>
             </div>
         </header>
         <!-- New -->
-        <section class="new-section text-center" id="new">
+        <!-- <section class="new-section text-center" id="new">
             <button class="btn btn-primary text-center" id="newBtn">New Workout</button>
             <div class="container" id="newContainer">
                 <form id="newWorkoutForm">
@@ -123,62 +123,67 @@
                     <button type="submit" class="btn btn-primary">Create Workout</button>
                   </form>
             </div>
-        </section>
-        <!-- Workouts-->
-        <section class="workouts-section bg-light" id="workouts">
+        </section> -->
+        <!-- Workouts (Trainings)-->
+        <section class="workouts-section bg-light">
             <div class="container" id="workoutsDiv">
-                <!-- Workout Row-->
-                <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Tomorrow's Workout</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Owner: Daniel Casanova</h4>
+                            <h6>Bachelor of Exercise Science</h5>
+                            <p style="color:white">Daniel Casanova's bio/goal for CSP</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <table class="table table-dark table-bordered">
-                            <thead>
-                              <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Lift</th>
-                                <th scope="col">Sets</th>
-                                <th scope="col">Reps</th>
-                                <th scope="col">Weights</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row">1</th>
-                                <td>Barbell Squat</td>
-                                <td>5</td>
-                                <td>8, 6, 6, 4, 2</td>
-                                <th>225, 275, 285, 305, 315</th>
-                              </tr>
-                              <tr>
-                                <th scope="row">2</th>
-                                <td>Leg Press</td>
-                                <td>4</td>
-                                <td>10, 8, 8, 8</td>
-                                <td>360, 380, 380, 400</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Backward Lunge</td>
-                                <td>4</td>
-                                <td>8, 8, 8, 8</td>
-                                <td>185, 185, 185, 185</td>
-                              </tr>
-                            </tbody>
-                          </table>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/daniel.jpg"></div>
+                </div>
+                <br>
+                <div id="workouts">
+                    <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="1">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Youth Training</h4>
+                                <ul>
+                                    <li>ages 7-11</li>
+                                    <li>M-Th</li>
+                                    <li>9-10 am</li>
+                                    <li>10-11 am</li>
+                                    <li style="color:green">$100/month</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="tableDiv">
+                            <img id="youth" src="assets/img/youth.jpg">
+                        </div>
                     </div>
-                </div> -->
+                    <br>
+                    <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="2">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Older Group</h4>
+                                <ul>
+                                    <li>7th-college</li>
+                                    <li>M-Th</li>
+                                    <li>5-6pm</li>
+                                    <li>6-7 pm</li>
+                                    <li>7-8 pm</li>
+                                    <li>8-9 pm</li>
+                                    <li style="color:green">$150/month</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="tableDiv">
+                            <img id="youth" src="assets/img/older.jpg">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <button id="modalBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#editWorkoutModal" data-exerciseid="this_exercise_id">
+            <!-- <button id="modalBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#editWorkoutModal" data-exerciseid="this_exercise_id">
                 Edit Exercise
-            </button>
+            </button> -->
         </section>
         <!-- edit workout modal -->
-        <div class="modal fade" id="editWorkoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="editWorkoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -265,9 +270,9 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         <!-- Log-In modal -->
-        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center">
@@ -296,9 +301,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Sign-Up Modal -->
-        <div class="modal fade" id="modalSignupForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="modalSignupForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center">
@@ -356,7 +361,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Info-->
         <section class="info-section" id="info">
             <div class="container">
@@ -372,41 +377,41 @@
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container">
-                <!-- <div class="row"> -->
-                    <!-- <div class="col-md-4 mb-3 mb-md-0">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50"><a href="https://www.google.com/maps/dir/26.0702208,-97.4913536/324+W+Ocean+Blvd,+Los+Fresnos,+TX+78566/@26.0714499,-97.5043859,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x866f9852eb2a009f:0x98ba15bb0a3d63a5!2m2!1d-97.4804439!2d26.0722925">324 W Ocean Blvd Suite 206, Los Fresnos, TX 78566</a></div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">dcasanova.csp@gmail.com</a></div>
+                                <div class="small text-black-50"><a href="mailto: dcasanova.csp@gmail.com">dcasanova.csp@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50"><a href="tel:956-434-7694">(956) 434-7694</a></div>
                             </div>
                         </div>
-                    </div> -->
-                <!-- </div> -->
+                    </div>
+                </div>
                 <div class="social d-flex justify-content-center">
                     <!-- <a class="mx-2" href="https://twitter.com/kike_valencia9?lang=en"><i class="fab fa-twitter"></i></a> -->
-                    <!-- <a class="mx-2" href="https://www.facebook.com/profile.php?id=100007425137250"><i class="fab fa-facebook-f"></i></a> -->
+                    <a class="mx-2" href="https://www.facebook.com/offseasonrgv/"><i class="fab fa-facebook-f"></i></a>
                     <a class="mx-2" href="https://www.instagram.com/coachcasa_nova/?hl=en"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -420,6 +425,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script src="js/index.js"></script>
+        <!-- <script src="js/index.js"></script> -->
     </body>
 </html>
